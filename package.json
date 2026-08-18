@@ -1,0 +1,13 @@
+{
+  "name": "books-api",
+  "version": "1.0.0",
+  "description": "books API",
+  "license": "ISC",
+  "author": "kseniia",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  }
+}
