@@ -96,3 +96,23 @@ Test-URLs:
 
 - `http://localhost:3000/`
 - `http://localhost:3000/api/books`
+
+## Aufgabe 5: API testen und dokumentieren
+
+Die API wurde im Browser oder mit `curl` getestet.
+
+Getestete Endpunkte:
+
+- `GET http://localhost:3000/`
+- `GET http://localhost:3000/api/books`
+
+Erwartete Antworten:
+
+- `GET /` gibt eine kurze Information zur API zurueck.
+- `GET /api/books` gibt eine JSON-Liste mit Buechern zurueck.
+
+Projekt installieren:
+
+```bash
+npm install
+```
