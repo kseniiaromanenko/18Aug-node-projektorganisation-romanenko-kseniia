@@ -78,3 +78,21 @@ Erwarteter Zustand nach Aufgabe 3:
 - `nodemon` steht in `devDependencies`.
 - `dayjs` wurde wieder entfernt.
 - `node_modules` und `package-lock.json` wurden durch npm erstellt.
+
+## Aufgabe 4: Eine einfache Buecher-API erstellen
+
+Die einfache Buecher-API wurde mit Express erstellt.
+
+Umgesetzt:
+
+- Express-Server in `src/server.js` eingerichtet.
+- `express.json()` aktiviert.
+- Route `GET /` erstellt.
+- Route `GET /api/books` erstellt.
+- Buecherliste mit mindestens 3 Buechern in `src/data/books.js` erstellt.
+- Books-Router in `src/routes/books.js` angelegt.
+
+Test-URLs:
+
+- `http://localhost:3000/`
+- `http://localhost:3000/api/books`
